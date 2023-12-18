@@ -1,0 +1,52 @@
+/* Universal selectors */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Element selectors */
+a{
+	color: white;
+}
+a:hover {
+	color: lightyellow;
+}
+body {
+	background-color: whitesmoke;
+	text-align: center;
+	color: #000100;
+}
+figure{
+	margin-bottom: 30px;
+}
+img{
+	height: 400px;
+	border-radius: 10%;
+	margin: 10px;
+}
+h1{
+	font-size: 20px;
+}
+h2{
+	padding-top: 100px;
+}
+h3{
+	padding: 10px;
+}
+nav{
+	display: inline;
+}
+main{
+	padding-top: 100px;
+}
+/* Class selectors */
+.bg-black {
+	background-color: #000100;
+	color: beige;
+}
+
+/* ID selectors */
+#contact {
+	background-color: lightpink;
+}
